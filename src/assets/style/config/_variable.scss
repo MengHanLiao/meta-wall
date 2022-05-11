@@ -1,0 +1,50 @@
+$primary: #03438D;
+$secondary: #EEC32A;
+$danger: #F57375;
+$water: #E2EDFA;
+$pampas: #EFECE7;
+$gray-lt: #A8B0B9;
+$gray: #808080;
+$gray-dk: #707070;
+$dark: #000400;
+
+$font-base: 1rem;
+$display-font: $font-base * 3.75rem;
+$font-sizes: (
+  1: $font-base * 1.5,
+  2: $font-base * 1.25,
+  3: $font-base,
+  4: $font-base * 0.875,
+  5: $font-base * 0.75,
+);
+$line-height: 1.5;
+
+$spacer: 0.25rem;
+$spacers: (
+  1: $spacer,
+  2: $spacer * 2,
+  3: $spacer * 2.5,
+  4: $spacer * 3,
+  5: $spacer * 4,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 9,
+  9: $spacer * 12,
+);
+
+$breakpoints: (
+  xl: 1200px,
+  lg: 992px,
+  md: 768px,
+  sm: 576px
+);
+
+$border-width: 2px;
+$boder-radius: 8px;
+
+$shadow-color-dk: rgba($dark, .3);
+$shadow-color-dk: rgba($dark, 1);
+
+$link-hover-color: $primary;
+$dropdown-link-hover-color: $pampas;
+$btn-hover-color: $secondary;
